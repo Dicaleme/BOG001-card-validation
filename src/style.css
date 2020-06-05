@@ -1,7 +1,10 @@
-div#header{
+header{
     width: 100%;
     height: 50px;
     background-color:#f95602;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: indigo;
+    text-align: center;    
 }
 .img-container img{
     margin-top: 0px;
@@ -9,10 +12,13 @@ div#header{
     width: 100%;
     height: 300px;
 }
-div#main{
+main{
     width: 100%;
     height: 50px;
     background-color: #8cd600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: indigo;
+    text-align: left;
 }
 nav{
     float: right;
@@ -38,7 +44,7 @@ li:hover{
     background-color: beige;    
     border-radius: 30px;           
 }
-div#footer{
+footer{
     width: 100%;
     height: 70px;
     margin-top: -30px;

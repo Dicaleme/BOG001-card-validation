@@ -1,9 +1,12 @@
-div#header{
+header{
     width: 100%;
     height: 50px;
     background-color:#f95602;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: indigo;
+    text-align: center;
 }
-div#header2{
+main{
     margin-top: -20px;
     width: 100%;
     height: 50px;
@@ -70,7 +73,7 @@ div#closing{
     width: 100%;
     height: 300px;
 }
-div#footer{
+footer{
     margin-top: -20px;
     width: 100%;
     height: 70px;
