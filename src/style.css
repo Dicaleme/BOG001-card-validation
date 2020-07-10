@@ -20,16 +20,19 @@ main{
     color: indigo;
     text-align: left;
 }
+/*float right allows items to show on the right side*/
 nav{
     float: right;
     margin-right: 100px;
     margin-top: -80px;          
 }
+/*float left organizes the titles of the list to the left*/
 li{    
     float: left;
     list-style: none;
     padding: 30px;
 }
+/*text decoration deletes the list bullets (home, contact us, go shopping and about us)*/
 a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,6 +43,8 @@ img{
     margin-top: -16px;
     width: 100%;       
 }
+/*hover is a style effect that shows a change when the user moves the mouse above an element*/ 
+/*boder radius is a property that defines the radius of the element´s corners*/
 li:hover{
     background-color: beige;    
     border-radius: 30px;           

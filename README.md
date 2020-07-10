@@ -47,44 +47,44 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### UX
 
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario
-* [ ] Crear prototipos para obtener feedback e iterar
-* [ ] Aplicar los principios de diseño visual
+* [x] Diseñar la aplicación pensando y entendiendo al usuario
+* [x] Crear prototipos para obtener feedback e iterar
+* [x] Aplicar los principios de diseño visual
 
 ### HTML y CSS
 
-* [ ] Uso correcto de HTML semántico
-* [ ] Uso de selectores de CSS
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [x] Uso correcto de HTML semántico
+* [x] Uso de selectores de CSS
+* [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-* [ ] Uso de selectores de nodos del DOM
-* [ ] Manejo de eventos del DOM
+* [x] Uso de selectores de nodos del DOM
+* [x] Manejo de eventos del DOM
 * [ ] Manipulación dinámica del DOM
 
 ### Javascript
 
-* [ ] Manipulación de strings
-* [ ] Uso de condicionales
-* [ ] Uso de bucles
-* [ ] Uso de funciones
+* [x] Manipulación de strings
+* [x] Uso de condicionales
+* [x] Uso de bucles
+* [x] Uso de funciones
 * [ ] Datos atómicos y estructurados
-* [ ] Utilizar ES Modules (`import` | `export`).
+* [x] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
 
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+* [x] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
 
 ### Git y GitHub
 
-* [ ] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+* [x] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+* [x] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [x] Organizar y dividir el código en módulos (Modularización).
+* [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
@@ -99,37 +99,24 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
-### Definición del producto
 
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+### User Interface (UI)
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+This interface should allow to the user:
 
-### Interfaz de usuario (UI)
-
-La interfaz debe permitir al usuario:
-
-* Insertar el número que queremos validar.
-* Ver el resultado si es válido o no.
-* Ocultar todos los dígitos de su número de tarjeta menos los últimos
-4 caracteres.
+* Insert the credit card number we want to validate.
+* Show result if it is valid or not.
+* Mask all credit card numbers except for the last 4 digits.
 * No debe poder ingresar un campo vacío.
 
-### UX (Diseño de experiencia de usuario)
+### User Experience Design (UX)
 
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
+Before start coding, understand the problem and give a solution through the application.
 
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
+* Do paper scketches (black and white).
+* Ask for feedback to a teammember.
+* Develop a prototype based on the paper scketches ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
 
 ### Scripts / Archivos
 
@@ -137,19 +124,35 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
-Debe contener lo siguiente:
+* Project name: "LeManti"
+* Summary: This project presents the user a Swimming Club called "Le AcquAmanti" which is launching its new swimming gear brand called "LeManti" available for online purchases as a solution for swimmers, club members/non-members to buy high quality items at low prices plus free shipping.
+* Final Project Image 
+* UX Investigation:
+  ### Product Definition
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
+How did you think about the users? 
+Swimming is one of the best sports ever. As a swimmer when trying to purchase gear I found out there are multiple brands that are expensive and the low cost choices are not always the best durable or high quality products as they could be. So, the idea of a Swimming Club called "Le AcquAmanti" (Water Lovers in Italian) to launch its own brand "LeManti" for low cost and still high quality swimming gear is very interesting. There are lots of swimmers that would be really excited to enjoy this brand benefits and designs.  
+
+What was your process to define the final product on UI and UX? 
+First of all, it was extremely important to define who the user was and what was the benefit or solution they were looking for. Then based on that, create some sketches that were useful to show those ideas. When the idea was clear in head and paper, next was key to work on design a prototype (e.g. through Figma) on how this idea would be materialized on the application/website. Finally, coding through HTML, CSS and JavaScript to bring those ideas to life and assign functions and events to deliver the most accurate user interface and provide the best user experience since when we know the user being in their shoes, it is easier for us to relate with them and understand what they really need as well as being realistic about what we are able to offer them as a final product.  
+
+
+* Who are the main users of this product?: The main users of this application/website are the Swimming instructors from the "Le AcquAmanti Club" and at the same time all swimmers club members/non-members that want to purchase high quality and still low cost swimming gear.
+
+* Which are the users' objectives related to this product? The Club swimming instructors' main objective is to launch its new swimming gear brand called "LeManti" available for online purchases and free shipping with a variety of choices. 
+
+* How do you think this product you are creating is solving the users' concerns?: This application/website is giving a solution when announcing the new brand online in order to become an alternative for swimmers to purchase anytime, anywhere while saving money and getting the best quality swimming gear at the same time. 
+
+  3. Paper Sketch
+
+  <img src="sketch1.jpg" width= "500 px">
+  <img src="sketch2.jpg" width= "500 px">
+
+  4. Feedback received: Organize interface to avoid everything gets on the principal page overwhelming the user with information on the main page. Create a list of products to give choices to the users. Use plain color in the a background instead of whole image to avoid losing customer focus on the letters and use the same font style through the titles and themes. 
+
+  5. Final Prototype 
+  
+  https://www.figma.com/file/GG7jjyAUCbfLawQfKavBIE/Le-Manti?node-id=0%3A1
 
 #### Visualmente (HTML y CSS)
 

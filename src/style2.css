@@ -18,6 +18,7 @@ h1{
     font-size: 30px;
     text-align: center;
 }
+/*align items helps to show elements in the middle*/
 .img-container2 img{
     margin: auto;
     display: flex;
@@ -28,6 +29,7 @@ h3{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*display flex is a property that alters the element dimensions and fills the avaliable space*/
 button{
     color: indigo;
     margin: auto;
@@ -41,6 +43,7 @@ button{
 nav{
     margin-left: 150px;
 }
+/*display inline block is a value that has a similar result that the value float and allows to organize the info in boxes*/
 li{ 
     display: inline-block;
     list-style: none;     
