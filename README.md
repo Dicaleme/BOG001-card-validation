@@ -55,7 +55,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 * [x] Uso correcto de HTML semántico
 * [x] Uso de selectores de CSS
-* [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
@@ -79,13 +79,13 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 ### Git y GitHub
 
 * [x] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-* [x] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+* [ ] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
 * [x] Organizar y dividir el código en módulos (Modularización).
-* [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
@@ -145,8 +145,8 @@ First of all, it was extremely important to define who the user was and what was
 
   3. Paper Sketch
 
-  <img src="sketch1.jpg" width= "500 px">
-  <img src="sketch2.jpg" width= "500 px">
+  <img src="src/sketch1.jpg" width= "500 px">
+  <img src="src/sketch2.jpg" width= "500 px">
 
   4. Feedback received: Organize interface to avoid everything gets on the principal page overwhelming the user with information on the main page. Create a list of products to give choices to the users. Use plain color in the a background instead of whole image to avoid losing customer focus on the letters and use the same font style through the titles and themes. 
 
