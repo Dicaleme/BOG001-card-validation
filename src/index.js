@@ -1,5 +1,5 @@
 import validator from './validator.js';
-document.getElementById("submit").addEventListener("click", payment);
+document.getElementById("paynow").addEventListener("click", payment);
 
 function payment() {
   let digits = document.getElementById("number").value;
