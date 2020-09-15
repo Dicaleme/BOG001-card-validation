@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le AcquAmanti Club</title>
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="buynow.css">
 </head>
 <body>
     <header><strong>Le AcquAmanti Club</strong></header>    
@@ -26,24 +26,25 @@
 
     <div class="chip"> <img src="chip.png" alt=""></div> 
     
-    <form action="" id="personal-details" class="personal-details">
-        <div class="data" id="purchase">
-            <label for="name">Name on Card</label>
-            <input type="text" id="name" required><br>
-            <label for="number">Card Number</label>
-            <input type="number" id="number" required><br>            
-            <label for="date">Expiration Date</label>
-            <input type="month" id="date" required><br>
-            <label for="cvv2">CVV2</label>
-            <input type="number" id="CVV2" required><br>
-            <button id="paynow"><strong>Pay Now</strong></button> 
+    <form action="" id="personal-details" class="personal-details">        
+        <div class="data-container">
+            <label class= "inputBoxLabel" for="name">Name on Card</label>
+            <input class= "inputBox" type="text" id="name" required><br>
+            <label class= "inputBoxLabel" for="number">Card Number</label>
+            <input class= "inputBox" type="number" id="number" required><br>            
+            <label class= "inputBoxLabel" for="date">Expiration Date</label>
+            <input class= "inputBox" type="month" id="date" required><br>
+            <label class= "inputBoxLabel"  for="cvv2">CVV2</label>
+            <input class= "inputBox" type="number" id="CVV2" required><br>             
         </div>
+        <div class="purchase" id="purchase"></div>
+        <button id="paynow" class="paynow"><strong>Pay Now</strong></button>
     </form>
         </section>               
    </div> 
 </div> <br>    
     <h3><strong>FREE SHIPPING!!!</strong></h3> 
-    <button class="goback"><strong><a href="index.html">GO BACK</a></strong></button> 
+    <button class="goback"><strong><a href="index.html">Go Home</a></strong></button> 
     <h3><strong>THANK YOU FOR YOUR PURCHASE</strong></h3>
     <div id="closing">       
     </div>
