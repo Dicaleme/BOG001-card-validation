@@ -1,5 +1,7 @@
 # Tarjeta de crédito válida
 
+![Banner](https://user-images.githubusercontent.com/65943524/100381219-88db7780-2fe6-11eb-8652-369ec5a09edc.jpg)
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -117,6 +119,9 @@ Before start coding, understand the problem and give a solution through the appl
 * Ask for feedback to a teammember.
 * Develop a prototype based on the paper scketches ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
   [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
+  
+![sketch1](https://user-images.githubusercontent.com/65943524/100381232-9133b280-2fe6-11eb-84d0-cf71e9f85040.jpg)
+![sketch2](https://user-images.githubusercontent.com/65943524/100381243-955fd000-2fe6-11eb-9fb9-b7d0d09408a3.jpg)
 
 ### Scripts / Archivos
 
